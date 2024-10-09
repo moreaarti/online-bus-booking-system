@@ -1,0 +1,9 @@
+.seats button {
+  margin: 5px;
+  padding: 10px;
+}
+
+.seats button:disabled {
+  background-color: grey;
+  cursor: not-allowed;
+}

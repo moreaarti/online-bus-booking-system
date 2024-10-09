@@ -1,0 +1,33 @@
+header {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+}
+
+footer {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.seat-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seat-layout div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
